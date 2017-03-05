@@ -1,0 +1,91 @@
+// ---------------------------------------------------------------------------------------------------------------------
+//
+//  Author: Ismael Rivera
+//  www: http://speggo.com/
+//  twitter: http://twitter.com/speggo
+//  dribbble: http://dribbble.com/speggo
+//
+//  Licensed under a MIT License
+//
+// ---------------------------------------------------------------------------------------------------------------------
+//
+// Requirements:
+//   Sass 3.2.0+
+//
+//  Version:
+//   1.2.3                                    // developed on 01/25/2014
+//
+//@import "compass/reset";
+@import "compass/css3";
+@import "media-queries";
+//@import "images";
+@import "colors";
+
+
+
+//--------------------------IMAGES------------------------------->>>>
+//Image Directories
+
+$banner-top:6px;
+$menu_name:"dropdown";
+$top-menu-font-size:19px;
+$header-menu-a-padding:32px;
+@mixin header_height(){
+  margin-top:$top-menu-font-size + ($header-menu-a-padding * 2) + (0.1 * $top-menu-font-size)
+};
+
+
+$menu_font: $top-menu-font-size 'bebas_neueregular', 'Trebuchet MS', Geneva, Monaco;
+//$top-menu-font-size + $header-menu-a-padding * 2 + (0.7 * $top-menu-font-size)---
+
+
+
+//----------EFFECTS-------------->>>>
+
+
+@mixin box-emboss($opacity, $opacity2, $bg){
+    box-shadow: 0 1px 0 rgba(255,255,255,$opacity), 0 1px 0 rgba(0,0,0,$opacity2) inset;
+    background: $bg;
+}
+
+
+
+
+
+@mixin border($width:1px,$line:solid,$color:#c00)
+{border: $width $line $color;}
+
+@mixin locate($type: border, $color:#c00)
+{#{$type}: 1px solid $color; }
+
+@mixin locate-w($w:1px, $color:#c00)
+{border: $w solid $color; }
+
+@mixin mcenter(){
+	margin-left:auto;
+	margin-right:auto;
+}
+
+//----------BUTTONS------------->>>>
+
+@mixin speggo-button(){
+	background:$indigo-purple;
+	color:$lime-green;
+	padding:20px;
+  display: block;
+}
+
+//--------SPREADSHEET----------->>>>
+
+
+@mixin img($img-name, $rep, $pos:null, $bg-coords:null, $img-url:"../img")
+{
+  background: url(#{$img-url}/#{$img-name}) $rep;
+  @if $pos {
+      background-position: $bg-coords;
+    }
+}
+
+
+
+

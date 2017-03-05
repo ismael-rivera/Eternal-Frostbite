@@ -1,0 +1,173 @@
+/* --------------------------------------------------------------------------------- */
+/* CSS Table of Contents
+/* --------------------------------------------------------------------------------- */
+/*
+	* Main Color
+	* Accent Color
+	* Top Navigation
+	* Scrollbar
+	* Header
+	* Mobile Navigation
+	* Blockquotes
+	* Tooltips
+	* Custom Body Text Color
+	* Misc
+	* Conditional CSS
+*/
+/* --------------------------------------------------------------------------------- */
+/* Main Color
+/* --------------------------------------------------------------------------------- */
+/* Foreground
+/* -------------------------------- */
+.light-bg h1, .light-bg h2, .light-bg h3, .light-bg h4, .light-bg h5, .light-bg h6, .light-bg h1 a, .light-bg h2 a, .light-bg h3 a, .light-bg h4 a, .light-bg h5 a, .light-bg h6 a, .light-bg a:hover, .home-banner.light .slider-nav li a:hover, .light-bg #portfolio-filters li span:hover, .light-bg .blog-nav a:hover.back:before, .light-bg .blog-nav > a:hover.next:after, .footer.white a:hover, .footer.light a:hover, .white .logo, .white .logo a, .mobilenav li a, .home-banner.light h1, .home-banner.light .slider-nav li a.active, select option, .light-bg .accordion-header, .header.white .topnav li a, .header.white .topnav li.menu-item-has-children a:after, .tabs li a.active, .arrow-list li:before, .light-bg .arrow-list li:before, .light-bg .table-style-1 th, .client-logos-title span, .light-bg .client-logos-title span, .light-bg .team .social i, .light-bg #portfolio-filters li span.active, .light-bg .portfolio-cats-title, .light-bg .portfolio-cats-title:before, .light-bg .blog-meta .meta-item .meta-title, .light-bg .post-sharing a i, .footer.white h3, .footer.light h3, .footer-newsletter .textbox, .dark-bg .footer-social li i, .error-404-title, .home-cta-bar, .footer-infobar.alternate, .mejs-overlay-play:after, .light-bg .categories_filter li.active a, .light-bg .stats-number, .light-bg .widget_nav_menu li.current-menu-item > a, .cta-bar.grey .cta-bar-text, .light-bg .wpb_tabs_nav li.ui-tabs-active a, a.button.bordered, .light-bg button.bordered, .light-bg input.bordered[type="submit"], .light-bg a.button.bordered:hover, .light-bg button.bordered:hover, .light-bg input.bordered[type="submit"]:hover, .light-bg .contact-form label.error, .tp-caption[class*=dark_title], .tp-caption[class*=dark_icon], .footer.light .footer-social i, .footer.white .footer-social i {
+	color: #2f3338;
+}
+.main-color i {
+	color: #2f3338 !important;
+}
+/* Important */
+.main-color i, a.button.white, a.button.white i {
+	color: #2f3338 !important;
+}
+/* -------------------------------- */
+/* Background
+/* -------------------------------- */
+.main-color-bg, .dark-bg .main-container, .dark-bg .jcarousel-nav, .dark-bg .client-logos-title span, .header.dark, .topnav li > ul, .white .mobilenav-button, .white .mobilenav-button:before, .white .mobilenav-button:after, .home-banner.dark, a.button, a.button.main, button, button.main, input.main[type="submit"], .action-box.main, .footer-container.dark, .main-content .title-container.main, .footer-infobar.main, .home-cta-bar.main, .light-bg .flip-box-wrap .flip_link a:hover, .light-bg .flip-box-wrap .flip_link a:visited:hover, .light-bg .flip-box-wrap .flip_link a:active:hover, .banner-block .bb-top-title, .light-bg .cta-bar.main, .alert.main, .mejs-container, .mejs-embed, .mejs-embed body, .stretched.dark-bg {
+	background-color: #2f3338;
+}
+/* Important */
+.vc_single_bar.bar_main .vc_bar {
+	background-color: #2f3338 !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Accent Color
+/* --------------------------------------------------------------------------------- */
+/* Foreground
+/* -------------------------------- */
+a, a:after, .white .logo span, .white .logo a span, .dark .logo span, .dark .logo a span, .header.white .topnav li.current-menu-item > a, .header.white .topnav li.current_page_parent > a, .header.white .topnav li.current-menu-parent > a, .header.white .topnav li a:hover, .header.white .topnav li.menu-item-has-children.current_page_parent a:after, .header.white .topnav li.menu-item-has-children.current-menu-parent a:after, .header.white .topnav li.current-menu-item > a:after, .header.white .topnav li a:hover:after, .header.white .topnav li a.drop:hover:after, .mobilenav li.current-menu-item > a, .home-banner h1 span, .light-bg #portfolio-filters li span, .dark-bg #portfolio-filters li span, .light-bg h1 a:hover, .light-bg h2 a:hover, .light-bg h3 a:hover, .light-bg h4 a:hover, .light-bg h5 a:hover, .light-bg h6 a:hover, .mobilenav a:hover, .mobilenav a:hover:after, .home-banner.light .slider-controls a:hover:after, i, a i, #clients-back a:hover:after, #clients-next a:hover:after, .light-bg .team .social i:hover, .light-bg .post-sharing a:hover i, .footer.light .footer-lower li a:hover, .dark-bg .footer-social li i:hover, .mejs-overlay-play:hover:after, .aio-icon, .smile_icon_list.no_bg .icon_list_icon, .light-bg h4.wpb_toggle:hover, .wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon, .footer .widget_nav_menu li.current-menu-item > a, a#cancel-comment-reply-link, .tp-caption[class*=accent_icon], .footer.light .footer-social i:hover, .footer.white .footer-social i:hover, .light-bg .wpb_toggle:before, .light-bg #content h4.wpb_toggle:before {
+	color: #dd4952;
+}
+/* Important */
+a.accent-color, i.accent-color, span.accent-color, .header.light .topsocial li a:hover i, .header.white .topsocial li a:hover i, .clients-carousel a.jcarousel-prev:hover:after, .clients-carousel a.jcarousel-next:hover:after, a.standard-nav.jcarousel-prev:hover:after, a.standard-nav.jcarousel-next:hover:after {
+	color: #dd4952 !important;
+}
+/* -------------------------------- */
+/* Background
+/* -------------------------------- */
+.main-content h1.bordered:after, .divider:after, .slide-style-2 .icon-backing, .slider-nav li a.active:before, a.button, input[type="submit"], a.button.accent, button.accent, input.accent[type="submit"], .basix-tooltip, .action-box.accent, .blog-meta:after, a.link_image:hover:before, .carousel-nav a:hover, .top-of-page-link:hover, .footer-infobar.accent, .footer-newsletter .button, .widget_tag_cloud a, .main-content .title-container.accent, .home-cta-bar.accent, .flip-box-wrap .flip_link a:visited, .flip-box-wrap .flip_link a:active, a.prev:hover, a.next:hover, a.jcarousel-prev:hover, a.jcarousel-next:hover, .cta-bar.accent, .alert.accent, .carousel-holder .mobile-pagination li.active, .mini-divider {
+	background-color: #dd4952;
+}
+/* Important */
+.vc_single_bar.bar_accent .vc_bar, .wpb_revslider_element.white-bg .tp-bannertimer, .wpb_revslider_element.white-bg .tp-bullets.simplebullets.round .bullet.selected, .wpb_revslider_element.white-bg .tp-bullets.simplebullets.round .bullet.selected:hover, input[type="submit"]:focus {
+	background-color: #dd4952 !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Top Navigation
+/* --------------------------------------------------------------------------------- */
+.topnav > li.current-menu-item > a, .topnav > li.current_page_parent > a, .topnav > li.current-menu-parent > a {
+	border-top-color: #dd4952;
+}
+/* --------------------------------------------------------------------------------- */
+/* Scrollbar (Webkit Only)
+/* --------------------------------------------------------------------------------- */
+::-webkit-scrollbar-thumb {
+	background-color: #2f3338 !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Header
+/* --------------------------------------------------------------------------------- */
+.header, .topbar, .topnav, .topnav li, .topnav li a, .topsocial, .topsocial li {
+	height: 60px;
+}
+.topnav li.menu-item-has-children a:after {
+	line-height: 60px;
+}
+/* --------------------------------------------------------------------------------- */
+/* Mobile Navigation
+	/* Distance from header (needs to be same as header height above)
+/* --------------------------------------------------------------------------------- */
+.mobilenav {
+	top: 60px;
+}
+/* --------------------------------------------------------------------------------- */
+/* Blockquotes
+/* --------------------------------------------------------------------------------- */
+blockquote {
+	border-left-color: #dd4952;
+}
+/* --------------------------------------------------------------------------------- */
+/* Tooltips
+/* --------------------------------------------------------------------------------- */
+.basix-tooltip:after {
+	border-color: #dd4952 transparent transparent transparent;
+}
+ul.topsocial .basix-tooltip:after {
+	border-color: transparent transparent #dd4952 transparent;
+}
+/* --------------------------------------------------------------------------------- */
+/* Custom Body Text Color
+/* --------------------------------------------------------------------------------- */
+body.light-bg, .footer.light, .footer.white {
+	color: #6f6f6f;
+}
+/* --------------------------------------------------------------------------------- */
+/* Misc
+/* -------------------------------- */
+/* Bordered Button
+/* -------------------------------- */
+a.button.bordered:hover, button.bordered:hover, input.bordered[type="submit"]:hover {
+	background-color: #2f3338;
+	background-image: none;
+	-webkit-box-shadow: inset 0px 0px 0px 1px #2f3338;
+	-moz-box-shadow: inset 0px 0px 0px 1px #2f3338;
+	box-shadow: inset 0px 0px 0px 1px #2f3338;
+	color: #ffffff !important;
+}
+/* -------------------------------- */
+/* MediaElement.js
+/* -------------------------------- */
+.mejs-controls {
+	background: #2f3338 !important;
+}
+.mejs-time-current {
+	background: #dd4952 !important;
+}
+/* -------------------------------- */
+/* Visual Composer
+/* -------------------------------- */
+.vc_progress_bar.accent .vc_single_bar .vc_bar {
+	background-color: #dd4952 !important;
+}
+.light-bg .vc_progress_bar.main .vc_single_bar .vc_bar {
+	background-color: #2f3338 !important;
+}
+.dark-bg .vc_single_bar.bar_grey .vc_label {
+	color: #2f3338;
+}
+.dark-bg .smile_icon_list.no_bg .icon_list_icon {
+	background-color: #2f3338 !important;
+}
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active {
+	border-top: 1px solid #dd4952;
+}
+.wpb_accordion .ui-accordion-header-active {
+	background-color: #dd4952 !important;
+}
+/* -------------------------------- */
+/* WP Widgets
+/* -------------------------------- */
+.light-bg .main-content .widget_tag_cloud a:hover, .footer.light .widget_tag_cloud a:hover {
+	background-color: #2f3338;
+}
+.dark-bg .main-content .widget_tag_cloud a:hover, .footer.dark .widget_tag_cloud a:hover {
+	color: #dd4952 !important;
+}
+/* -------------------------------- */
+/* Visual Composer / Ultimate VC Addons
+/* -------------------------------- */
+.light-bg .wpb_tabs_nav li.ui-tabs-active a {
+	color: #2f3338 !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Conditional CSS
+/* --------------------------------------------------------------------------------- */

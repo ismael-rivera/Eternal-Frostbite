@@ -1,0 +1,79 @@
+@import "basefiles/base";
+
+footer{ 
+	h4{
+		font-size: 18px;
+	}
+    li{
+    	list-style-type: none;
+    }
+}
+
+#action-nav{
+text-align: center;
+	li{ 
+display: inline-block;
+
+		a{
+		font-size: 16px;	
+		display: block;
+	}
+}
+
+	li:last-child {
+    border-left: none;
+}
+}
+
+/* ===================== MENU ======================== */
+
+.sub-menu li{
+	position: relative;
+}
+
+.sub-menu > ul{
+	position: absolute;
+	display: none;
+	background-color: #060047;
+	padding: 0px;
+	z-index: 99;
+}
+
+.sub-menu > ul li{
+	width: 100%;
+	display: block;
+	/*border: 1px solid #f54;*/
+
+}
+
+.sub-menu ul li{
+	display: block;
+	clear: both;
+	float:left;
+	text-align: left;
+	/*border: 1px solid #f00;*/
+
+}
+.sub-menu > ul li a{
+	display: block;
+	width: 100%;
+	padding: 12px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #B7B1FF !important;
+	
+}
+
+.sub-menu > ul li a:hover{
+	background-color: #54A300;
+}
+
+.sub-menu:hover > ul{
+	display: block;
+}
+
+#action-nav li a {
+	min-height: 60px;
+	padding-top: 18px;
+	color: #060047;
+}

@@ -1,0 +1,28 @@
+/* line 4, ../sass/site.scss */
+footer h4 {
+  font-size: 18px;
+}
+/* line 7, ../sass/site.scss */
+footer li {
+  list-style-type: none;
+}
+
+/* line 12, ../sass/site.scss */
+#action-nav {
+  text-align: center;
+}
+/* line 14, ../sass/site.scss */
+#action-nav li {
+  display: inline-block;
+}
+/* line 17, ../sass/site.scss */
+#action-nav li a {
+  font-size: 16px;
+  display: block;
+}
+/* line 23, ../sass/site.scss */
+#action-nav li:last-child {
+  border-left: none;
+}
+
+
